@@ -5,8 +5,8 @@
  */
 const removeDuplicateItems = (items) => {
   const set = new Set(items);
-  const setConvertedToArray = Array.from(set);
-  return setConvertedToArray;
+  const conv = Array.from(set);
+  return conv;
 };
 
 module.exports = removeDuplicateItems;
